@@ -1,0 +1,78 @@
+/* =========================================
+VERSÃO 01 - TERMINAL PYTHON WEB
+========================================= */
+
+body {
+    margin: 0;
+    background: #020617;
+    color: #00ff88;
+    font-family: Consolas, monospace;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #00ff88;
+}
+
+#terminal {
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    height: 420px;
+    font-size: 18px; /* Ajuste leve para melhor leitura de textos longos */
+    line-height: 1.6;
+    box-shadow: 0 0 25px #00ff88;
+    margin-bottom: 25px;
+    overflow-y: auto; /* Barra lateral automática */
+}
+
+/* SCROLL ESTILO TERMINAL */
+#terminal::-webkit-scrollbar {
+    width: 8px;
+}
+
+#terminal::-webkit-scrollbar-thumb {
+    background: #00ff88;
+}
+
+#terminal::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: #020617;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #00ff88;
+    color: #020617;
+}
+
+.danger {
+    border-color: #ff4444;
+    color: #ff4444;
+}
+
+.danger:hover {
+    background: #ff4444;
+    color: black;
+}
