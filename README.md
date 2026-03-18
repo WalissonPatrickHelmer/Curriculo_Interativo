@@ -72,10 +72,12 @@ Também funciona como uma forma criativa de apresentar um currículo técnico.
 ```
 curriculo-interativo-python/
 │
+└── images
 ├── curriculo.py
 ├── README.md
-└── images
-    └── demo.png
+└── index.html
+
+
 ```
 
 ---
